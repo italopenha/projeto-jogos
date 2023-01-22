@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'gta';
+    src: url(../fonts/pricedown\ bl.otf) format(opentype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'rdr';
+    src: url(../fonts/chinese\ rocks\ rg.otf) format(opentype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'forza';
+    src: url(../fonts/OPTITomasoBold-Extended.ttf.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-gta: 'gta';
+    --fonte-rdr: 'rdr';
+    --fonte-forza: 'forza';
+
+    --cor01: #44E16B; 
+    --cor02: #00DB37;
+    --cor03: #00A82A;
+    --cor04: #0F6124;
+    --cor05: #005C17;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+html, body {
+    background-color: var(--cor01);
+}
+
+header {
+    background-color: var(--cor05);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+#burger {
+    background-color: var(--cor04);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: var(--cor01);
+    color: var(--cor05);
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor05);
+    color: white;
+    font-weight: bold;
+    border-top: 1px solid var(--cor03);
+}
+
+menu a:hover {
+    background-color: var(--cor03);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+article h1 {
+    font-size: 1.3em;
+    margin-top: 30px;
+}
+
+article > img {
+    width: 90vw;
+}
+
+.gta-font {
+    font-family: var(--fonte-gta);
+    text-align: center;
+    padding: 5px;
+}
+
+.rdr-font {
+    font-family: var(--fonte-rdr);
+    text-align: center;
+    padding: 5px;
+}
+
+.forza-font {
+    font-family: var(--fonte-forza);
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--cor05);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+

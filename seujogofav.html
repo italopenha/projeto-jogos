@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus Jogos Favoritos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <ul id="menu">
+        <li>
+            <a href="index.html"> Home </a>
+        </li>
+        <li>
+            <a href="rdr2.html"> Red Dead Redemption 2 </a>
+        </li>
+        <li>
+            <a href="gtav.html"> GTA V </a>
+        </li>
+        <li>
+            <a href="fh4.html">Forza Horizon 4</a>
+        </li>
+        <li>
+            <a href="seujogofav.html">Quais são seus jogos favoritos?</a>
+        </li>
+    </ul>
+    <hr>
+    <h1 class="center fs50">Cite seus três jogos favoritos</h1>
+    
+    <form class="center">
+        <label for="nome"> Nome:</label>
+
+        <input type="text" id="nome" onkeyup="ValidaNome()">
+
+        <div id="txtNome"></div>
+
+        <br>
+
+        <label for="email"> E-mail:</label>
+
+        <input type="text" id="email" onkeyup="ValidaEmail()">
+
+        <div id="txtEmail"></div>
+
+        <br>
+
+        <label for="jogo1"> Jogo 1:</label>
+
+        <input type="text" id="jogo1" onkeyup="ValidaJogo1()">
+
+        <div id="txtJogo1"></div>
+
+        <br>
+
+        <label for="jogo2"> Jogo 2:</label>
+
+        <input type="text" id="jogo2" onkeyup="ValidaJogo2()">
+
+        <div id="txtJogo2"></div>
+
+        <br>
+
+        <label for="jogo3"> Jogo 3:</label>
+
+        <input type="text" id="jogo3" onkeyup="ValidaJogo3()">
+
+        <div id="txtJogo3"></div>
+
+        <br>
+
+        <button onclick="Enviar()">Enviar</button>
+    </form>
+
+    <script src="assets/js/script.js"></script>
+
+    <footer>
+        <hr>
+        <div class="container">
+            <a href="https://www.instagram.com/italoracer97/">
+            <img class="tm-social" src="assets/img/instagram.png" alt="">
+            </a>
+        </div>
+        
+        <p class="center">
+            @italoracer97
+        </p>
+    </footer>
+
+</body>
+</html>

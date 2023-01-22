@@ -1,0 +1,1 @@
+Projeto básico feito para treinar conceitos de HTML e CSS
