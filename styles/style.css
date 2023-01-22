@@ -106,28 +106,42 @@ article > p {
 article h1 {
     font-size: 1.3em;
     margin-top: 30px;
+    padding: 5px;
+}
+
+main > img {
+    width: 90vw;
 }
 
 article > img {
     width: 90vw;
 }
 
-.gta-font {
+div.video {
+    margin: -10px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#gta-font {
     font-family: var(--fonte-gta);
-    text-align: center;
-    padding: 5px;
 }
 
-.rdr-font {
+#rdr-font {
     font-family: var(--fonte-rdr);
-    text-align: center;
-    padding: 5px;
 }
 
-.forza-font {
+#forza-font {
     font-family: var(--fonte-forza);
-    text-align: center;
-    padding: 5px;
 }
 
 footer {
