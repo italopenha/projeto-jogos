@@ -21,11 +21,11 @@
     </style>
 </head>
 
-<body>
+<body onresize="mudouTamanho">
     <header>
         <h1>Meus Jogos Favoritos</h1>
         <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="index.html" target="_self">Home</a></li>
                 <li><a href="gtav.html" target="_self">GTA V</a></li>
@@ -54,5 +54,22 @@
         <a href="https://www.instagram.com/italoracer97/" target="_blank" rel="external"><img src="imgs/instagram.png" alt="Ícone Instagram"></a>
     </footer>
 
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>
