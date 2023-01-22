@@ -63,7 +63,7 @@ header > h1 {
     color: var(--cor05);
 }
 
-menu {
+menu#itens {
     display: block;
 }
 
