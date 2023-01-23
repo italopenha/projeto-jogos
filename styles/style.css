@@ -17,6 +17,7 @@
 }
 
 :root {
+    --fonte-titulos: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-gta: 'gta';
     --fonte-rdr: 'rdr';
@@ -47,6 +48,9 @@ header > h1 {
     padding: 10px;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.274);
+    font-size: 1.5em;
+    font-family: var(--fonte-titulos);
 }
 
 #burger {
@@ -59,7 +63,7 @@ header > h1 {
 }
 
 #burger:hover {
-    background-color: var(--cor01);
+    background-color: var(--cor03);
     color: var(--cor05);
 }
 
@@ -80,6 +84,7 @@ menu > ul > li > a {
     color: white;
     font-weight: bold;
     border-top: 1px solid var(--cor03);
+    font-family: var(--fonte-titulos);
 }
 
 menu a:hover {
@@ -133,15 +138,15 @@ div.video > iframe {
 }
 
 #gta-font {
-    font-family: var(--fonte-gta);
+    font-family: var(--fonte-gta), var(--fonte-titulos);
 }
 
 #rdr-font {
-    font-family: var(--fonte-rdr);
+    font-family: var(--fonte-rdr), var(--fonte-titulos);
 }
 
 #forza-font {
-    font-family: var(--fonte-forza);
+    font-family: var(--fonte-forza), var(--fonte-titulos);
 }
 
 footer {

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+form {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+form > div {
+    padding: 10px;
+    background-color: #005C17;
+    color: white;
+}
+
+form > div > input {
+    width: 100%;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+.botao {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: #005C17;
+    width: 100px;
+}
+
+.botao:hover {
+    background-color: #00A82A;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        width: 40vw;
+    }
+}
